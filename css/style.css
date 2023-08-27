@@ -67,7 +67,7 @@ body{
 
 .menu__list {
     display: flex;
-    gap: 0 35px;
+    gap: 35px 0;
 }
 
 .menu__list-link {
