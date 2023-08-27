@@ -67,7 +67,7 @@ body{
 
 .menu__list {
     display: flex;
-    gap: 35px 0;
+    gap: 0 35px;
 }
 
 .menu__list-link {
@@ -579,6 +579,7 @@ body{
         z-index: 5;
         background-color: #151515;
         flex-direction: column;
+        gap: 35px 0;
         top: 0;
         right: 0;
         left: 0;
@@ -591,6 +592,9 @@ body{
     }
     .menu__list.menu__list--active{
         transform: translateY(0);
+    }
+    .header__inner{
+        align-items: center;
     }
     .why-lease__list{
         grid-template-columns: repeat(2,1fr);
